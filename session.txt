@@ -1,0 +1,3 @@
+	@if(session()->has('message'))
+		<strong class="text-success"> {{session()->get('message')}} </strong>
+	@endif
